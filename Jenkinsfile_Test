@@ -8,7 +8,8 @@ node (){
 		 extensions: [], 
 		 submoduleCfg: [], userRemoteConfigs: [[credentialsId: '9f904bac-0d2d-4e74-bb3f-b9a0f7a364de', url: 'https://github.com/bsreenua6/CounterWebapp.git']]])
 		 
-		 bat '%mvnHome%/bin/mvn clean install'
+		 echo %mvnHome% 
+		 bat '"%mvnHome%\\bin\\mvn" clean install'
 		}
 	}
 
