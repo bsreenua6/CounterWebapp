@@ -1,5 +1,5 @@
 node (){
-	 def mvnHome = tool 'Maven-3.5.4'
+	 def mvnHome = tool 'Maven3'
 		stage('Build')
 		{
 		 checkout([$class: 'GitSCM', 
